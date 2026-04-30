@@ -1,0 +1,13 @@
+[package]
+name = "ai-image-generation"
+version = "6.0.0"
+description = "AI 灵感创作工坊 - AI Image Generation Workspace"
+license = "Apache-2.0"
+
+[dependencies]
+"sharrattj/static-web-server" = "1"
+
+[[command]]
+name = "app"
+module = "src/index.js"
+runner = "https://webc.org/runner/js"
